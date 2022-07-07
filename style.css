@@ -1,0 +1,66 @@
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+}
+
+.navbar>nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    margin-left: 2.5rem;
+    font-weight: 400;
+}
+ul{
+    display: flex;
+}
+li{
+    list-style: none;
+    margin-left: 2rem;
+    padding-top: 9px;
+    font-size: 1.2rem;
+    margin-right: 2rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link, a:visited{
+    color:black;
+}
+
+a:hover{
+    color: pink;
+}
+
+
+.welcomeImage>img{
+    height:100vh;
+    width: 95vw;
+    margin-left: 2.5vw;
+    margin-right: 2vw;
+}
+.skills{
+    display: flex;
+}
+.skills>div{
+    margin-left: 1vw;
+    width: 30vw;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.skills>div>p{
+    padding: 1rem;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.footer>p{
+    font-size: 1rem;
+}
